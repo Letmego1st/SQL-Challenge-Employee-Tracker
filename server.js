@@ -23,7 +23,7 @@ function startScreen() {
             "Add employee",
             "View departments",
             "View roles",
-            "View emplyees",
+            "View employees",
             "Update employee role",
             "Quit"
          ],
@@ -37,7 +37,8 @@ function startScreen() {
                addDepartment();
                break;
             case "Add role":
-               break;
+               addRole();
+              break;
             case "Add employee":
                addEmployee();
                break;
@@ -113,7 +114,7 @@ function addEmployee() {
          },
          {
             type: "input",
-            message: "what is tthe employee's role ID number?",
+            message: "what is the employee's role ID number?",
             name: "roleID"
          },
          {

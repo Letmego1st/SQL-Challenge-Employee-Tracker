@@ -1,5 +1,5 @@
 INSERT INTO department (name)
-VALUES ("Security"), ("Arc Reactor"), ("Engineering"), ("Solar Array"), ("Propulsion");
+VALUES ("Security"), ("Arc Reactor"), ("Engineering"), ("Solar Array"), ("Propulsion");("The Avengers");
 
 INSERT INTO role (title, salary, department_id)
 VALUE ("Head of Security", 25000.00, 2), ("Scientist", 600000.00, 3), ("Engineer", 600000.00, 4), ("Vice President", 200000.00, 1), ("CEO", 800000.00, 5);
