@@ -37,7 +37,8 @@ function startScreen() {
                addDepartment();
                break;
             case "Add role":
-               addRole();
+              //added role 
+            addRole();
               break;
             case "Add employee":
                addEmployee();
