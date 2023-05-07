@@ -11,19 +11,20 @@ Database Schema
 
 department:
 
-id - INT PRIMARY KEY
+*id - INT PRIMARY KEY
 *name - VARCHAR(30) to hold department name
 
 role:
 
-id - INT PRIMARY KEY
-title - VARCHAR(30) to hold role title
-salary - DECIMAL to hold role salary
-department_id - INT to hold reference to department role belongs to
+*id - INT PRIMARY KEY
+*title - VARCHAR(30) to hold role title
+*salary - DECIMAL to hold role salary
+*department_id - INT to hold reference to department role belongs to
+
 employee:
 
-id - INT PRIMARY KEY
-first_name - VARCHAR(30) to hold employee first name
+*id - INT PRIMARY KEY
+*first_name - VARCHAR(30) to hold employee first name
 last_name - VARCHAR(30) to hold employee last name
 role_id - INT to hold reference to role employee has
 manager_id - INT to hold reference to another employee that manager of the current employee. This field may be null if the employee has no manager
@@ -62,9 +63,10 @@ You may wish to have a separate file containing functions for performing specifi
 
 You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
 
-![Employee Tracker Walk Video](https://app.screencastify.com/driveProxy?fileId=1BpFmiRM_5j4CsrLnxI3cx-w915oDKIGi&alt=media&source=downloadUrl&cache_buster=1683472996369&access_token=ya29.a0AWY7Ckl8GwscRdKkavjKYyfUAFtYRtcRPKo3E_ApuwM4A7NmJe5_QQtoEfE7xR0s4l_C8dAvuCpEZYjCg_bFjYCp69asyG4VBHGBfYykJTlEUrh_k3I1Fd0ZInxdP3rLSIMD1XBO_2xZ-FXSLBpgUzruMjWNJG4aCgYKAXUSARASFQG1tDrp54IRX1LE9uYbZmw1YugWEA0166&cacheBuster=0)
+![Employee Tracker Walk Video](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.mp4)
 
 Hints
+
 You may wish to include a seed.sql file to pre-populate your database. This will make development of individual features much easier.
 
 Focus on getting the basic functionality completed before working on more advanced features.
@@ -86,52 +88,6 @@ View departments, roles, employees
 
 Update employee roles
 
-Bonus
-The command-line application should allow users to:
 
-Update employee managers
 
-View employees by manager
 
-Delete departments, roles, and employees
-
-View the total utilized budget of a department -- ie the combined salaries of all employees in that department
-
-About
-No description, website, or topics provided.
-Resources
- Readme
-Stars
- 2 stars
-Watchers
- 2 watching
-Forks
- 10 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Environments 2
- github-pages Active
- employeetracker999 Inactive
-Languages
-JavaScript
-95.4%
- 
-TSQL
-4.6%
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
