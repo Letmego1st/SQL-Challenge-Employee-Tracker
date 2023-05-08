@@ -2,7 +2,8 @@ Unit 12 MySQL Homework: Employee Tracker
 
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
-Instructions
+Instructions:
+
 Design the following database schema containing three tables:
 
 ![Three Table Schema](./Assets/schema.png)
@@ -28,6 +29,7 @@ employee:
 last_name - VARCHAR(30) to hold employee last name
 role_id - INT to hold reference to role employee has
 manager_id - INT to hold reference to another employee that manager of the current employee. This field may be null if the employee has no manager
+
 Build a command-line application that at a minimum allows the user to:
 
 Add departments, roles, employees
@@ -51,6 +53,7 @@ We can frame this challenge as follows:
 As a business owner
 I want to be able to view and manage the departments, roles, and employees in my company
 So that I can organize and plan my business
+
 How do you deliver this? Here are some guidelines:
 
 Use the MySQL NPM package to connect to your MySQL database and perform queries.
@@ -63,9 +66,9 @@ You may wish to have a separate file containing functions for performing specifi
 
 You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
 
-![Employee Tracker Walk Video](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.mp4)
+[Employee Tracker Walk Video](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.mp4)
 
-Hints
+Hints:
 
 You may wish to include a seed.sql file to pre-populate your database. This will make development of individual features much easier.
 
