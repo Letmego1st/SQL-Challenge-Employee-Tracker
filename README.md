@@ -66,7 +66,7 @@ You may wish to have a separate file containing functions for performing specifi
 
 You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
 
-[![Employee Tracker Walk Thru Video Click Here!!!](./Assets/employee-tracker.gif)](https://drive.google.com/file/d/1BpFmiRM_5j4CsrLnxI3cx-w915oDKIGi/preview)
+[![Employee Tracker Walk Thru Video Click Here!!!](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.gif)](https://drive.google.com/file/d/1BpFmiRM_5j4CsrLnxI3cx-w915oDKIGi/preview)
 
 ![Employee Tracker gif](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.gif)
 
