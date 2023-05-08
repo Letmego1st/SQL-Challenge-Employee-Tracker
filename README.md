@@ -72,6 +72,14 @@ You will need to perform a variety of SQL JOINS to complete this assignment, and
 
 <!-- ![Employee Tracker gif](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.gif) -->
 
+**Screenshots**
+
+![Employee Tracker gif](./Assets/Screen%20Shot%202023-05-07%20at%208.35.15%20PM.png)
+
+![Employee Tracker gif](./Assets/Screen%20Shot%202023-05-07%20at%208.35.35%20PM.png)
+
+
+
 
 **Hints:**
 
@@ -96,6 +104,18 @@ Add departments, roles, employees
 View departments, roles, employees
 
 Update employee roles
+
+**References:**
+
+Udemy Video Tutorials
+
+Youtube Instructional Videos
+
+Nikstar-1
+
+
+
+
 
 
 
