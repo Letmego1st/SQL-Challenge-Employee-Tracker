@@ -70,6 +70,11 @@ You will need to perform a variety of SQL JOINS to complete this assignment, and
 
 ![Employee Tracker gif](./Assets/Untitled_%20May%207%2C%202023%207_51%20AM.gif)
 
+<video controls width="640" height="360">
+ <source src="https://drive.google.com/file/d/1BpFmiRM_5j4CsrLnxI3cx-w915oDKIGi/preview" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
+
 Hints:
 
 You may wish to include a seed.sql file to pre-populate your database. This will make development of individual features much easier.
